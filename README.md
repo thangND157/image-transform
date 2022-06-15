@@ -50,3 +50,46 @@ Tính toán trên ma trận:
 
 **4 Phép trượt - Shearing**
 
+Phép trượt thay đổi độ dài đường chéo khi dời điểm ảnh theo trục x hoặc y một đoạn:
+
+*Shearing changes the diagonal length when moving pixels along the x or y-axis by a distance:*
+
+![image](https://user-images.githubusercontent.com/94043610/173717122-56f203d8-02c9-4c60-960a-146239ae0e03.png)
+
+Tính toán trên ma trận:
+
+*Calculation on the matrix:*
+
+![image](https://user-images.githubusercontent.com/94043610/173717159-688dd0c5-c8f9-46b5-8eb8-78bcb78c53d7.png)
+
+## Kết quả - Results
+
+Kết quả từ chương trình được so sánh với kết quả từ các hàm có sẵn của OpenCV.
+
+*Results from the program are compared with results from the built-in functions of OpenCV.*
+
+**1. Phép tỉ lệ - Scaling**
+
+![image](https://user-images.githubusercontent.com/94043610/173717872-d584c134-00c8-4cad-b3d9-8e73ef911967.png)
+
+**2. Phép tịnh tiến - Translation**
+
+![image](https://user-images.githubusercontent.com/94043610/173717994-ebefe67e-5007-4805-a32b-8c22af3034d1.png)
+
+**3. Phép xoay - Rotation**
+
+![image](https://user-images.githubusercontent.com/94043610/173718085-05a06370-fa33-4705-b244-44d06bfada80.png)
+
+**4 Phép trượt - Shearing**
+
+![image](https://user-images.githubusercontent.com/94043610/173718123-18dc1a3f-ea85-4be8-9503-5a17202af710.png)
+
+**Các phép biến đổi liên quan tới số thập phân (phép tỉ lệ và phép xoay) sẽ bị sai lệch do không thực hiện nội suy điểm ảnh.**
+
+**Transformations involving floating point numbers (scaling and rotation) will be wrong because pixel interpolation is not performed.**
+
+## More
+
+Nogài ra file `img_trans.py` còn có thêm 2 phép biến đổi là Affine và biến đổi phối cảnh.
+
+In addition, file `img_trans.py` have 2 more transformations: Affine and Perspective.
