@@ -33,6 +33,7 @@ Tính toán trên ma trận:
 *Calculation on the matrix:*
 
 ![image](https://user-images.githubusercontent.com/94043610/173715932-887087e0-5688-4547-9ba0-64df6c47b6c2.png)
+$$ ={\left\lbrack \matrix{2 & 3 \cr 4 & 5} \right\rbrack} $$
 
 **3. Phép xoay - Rotation**
 
